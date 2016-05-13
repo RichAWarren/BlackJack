@@ -8,12 +8,13 @@
 
   <body>
     <div id="header">
+
+      <button type="button" class="topRow" onclick="start()">Start</button>
+      <button type="button" class="topRow" onclick="reset()">Reset</button>
       <p>Number of decks</p>
-      <button type="button" onclick="start()">Start</button>
-      <button type="button" onclick="reset()">Reset</button>
-      <button type="button" onclick="changeNumDeck(4)">4</button>
-      <button type="button" onclick="changeNumDeck(6)">6</button>
-      <button type="button" onclick="changeNumDeck(8)">8</button>
+      <button type="button" class="topRow" onclick="changeNumDeck(4)">4</button>
+      <button type="button" class="topRow" onclick="changeNumDeck(6)">6</button>
+      <button type="button" class="topRow" onclick="changeNumDeck(8)">8</button>
       <p id="score">Player 0, Dealer 0</p>
     </div>
     <div id="dealer">

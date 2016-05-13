@@ -213,3 +213,27 @@ function score() {
   };
   document.getElementById('score').innerHTML = "Player " + playerScore + ", Dealer " + dealerScore;
 }
+
+function reset() {
+  playerCards = [];
+  dealerCards = [];
+  startPress = 0;
+  playerCardsAce = 0;
+  dealerCardsAce = 0;
+  playerBust = 0;
+  playerFreeze = 0;
+  dealerFreeze = 0;
+  dealerBlackjack = 0;
+  document.getElementById('message').innerHTML = "";
+  document.getElementById("d1").style.backgroundImage = "none";
+  document.getElementById("d2").style.backgroundImage = "none";
+  document.getElementById("d3").style.backgroundImage = "none";
+  document.getElementById("d4").style.backgroundImage = "none";
+  document.getElementById("d5").style.backgroundImage = "none";
+  document.getElementById("p1").style.backgroundImage = "none";
+  document.getElementById("p2").style.backgroundImage = "none";
+  document.getElementById("p3").style.backgroundImage = "none";
+  document.getElementById("p4").style.backgroundImage = "none";
+  document.getElementById("p5").style.backgroundImage = "none";
+  start();
+}

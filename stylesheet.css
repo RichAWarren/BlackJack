@@ -1,20 +1,37 @@
 body {
   margin: 0px;
+  background-color: #025802;
+  font-family: Arial;
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
 }
 
 #header {
   position: fixed;
   width: 100%;
   height: 20%;
-  background-color: green;
   top: 0px;
+  font-size: 40px;
+}
+
+p {
+  display: inline;
+  width:auto;
+}
+
+#topRow {
+  float: left;
+}
+
+#score {
+  float: right;
 }
 
 #dealer {
   position: fixed;
   width: 100%;
   height: 25%;
-  background-color: pink;
   top: 20%;
 }
 
@@ -22,15 +39,14 @@ body {
   position: fixed;
   width: 100%;
   height: 25%;
-  background-color: blue;
   top: 45%;
+  font-size: 40px;
 }
 
 #player {
   position: fixed;
   width: 100%;
   height: 25%;
-  background-color: red;
   top: 70%;
 }
 
@@ -40,4 +56,31 @@ body {
   height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+button {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: -moz-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: -ms-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: -o-linear-gradient(top, #ffffff, #c7c7c7);
+  background-image: linear-gradient(to bottom, #ffffff, #c7c7c7);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #969696;
+  background-image: -webkit-linear-gradient(top, #969696, #bfbfbf);
+  background-image: -moz-linear-gradient(top, #969696, #bfbfbf);
+  background-image: -ms-linear-gradient(top, #969696, #bfbfbf);
+  background-image: -o-linear-gradient(top, #969696, #bfbfbf);
+  background-image: linear-gradient(to bottom, #969696, #bfbfbf);
+  text-decoration: none;
 }
