@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  height: 20%;
+  background-color: green;
+  top: 0px;
+}
+
+#dealer {
+  position: fixed;
+  width: 100%;
+  height: 25%;
+  background-color: pink;
+  top: 20%;
+}
+
+#middle {
+  position: fixed;
+  width: 100%;
+  height: 25%;
+  background-color: blue;
+  top: 45%;
+}
+
+#player {
+  position: fixed;
+  width: 100%;
+  height: 25%;
+  background-color: red;
+  top: 70%;
+}
+
+.card {
+  display: inline-block;
+  width: 19%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
